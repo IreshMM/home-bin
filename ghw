@@ -1,0 +1,5 @@
+#!/bin/bash
+
+REMOTE="${1:-origin}"
+URL=`git remote get-url $REMOTE`
+xdg-open "$URL"

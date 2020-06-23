@@ -1,0 +1,8 @@
+#!/bin/bash
+
+setxkbmap -layout us
+
+xmodmap -e "clear mod4"
+xmodmap -e "keycode 135 = Super_R"
+xmodmap -e "add mod4 = Super_L Super_R"
+

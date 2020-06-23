@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xrandr --output DP1 --auto --right-of eDP1
+xwallpaper --zoom /home/iresh/Downloads/349868.jpg --screen 0
